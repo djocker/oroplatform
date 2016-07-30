@@ -1,4 +1,4 @@
-# OROPlatform source code image
+# OROPlatform Docker Image
 The docker image contains source code of OROPlatform application.
 This image are used as part of docker stack (see compose configs).
 
