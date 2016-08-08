@@ -1,4 +1,5 @@
 # OROPlatform Docker Image
+[![GitHub tag](https://img.shields.io/github/tag/djocker/oroplatform.svg?maxAge=2592000)](https://hub.docker.com/r/djocker/orocrm/tags/) [![Docker Pulls](https://img.shields.io/docker/pulls/djocker/oroplatform.svg?maxAge=2592000)](https://hub.docker.com/r/djocker/orocrm/)  
 The docker image contains source code of OROPlatform application.
 This image are used as part of docker stack (see compose configs).
 
@@ -41,7 +42,3 @@ Stop stack
 ```
 docker-compose -f <(curl https://raw.githubusercontent.com/djocker/oroplatform/master/compose/autoinstall/docker-compose.yml) stop 
 ```
-
-## Docker Cloud
-
-Also you can use stack files from [stackfile.io](https://stackfiles.io/registry/56fc345c416a1001004d39cc) to deploy via [cloud.docker.com](https://cloud.docker.com)
