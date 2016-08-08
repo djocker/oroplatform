@@ -1,5 +1,6 @@
 # OROPlatform Docker Image
 [![GitHub tag](https://img.shields.io/github/tag/djocker/oroplatform.svg?maxAge=2592000)](https://hub.docker.com/r/djocker/oroplatform/tags/) [![Docker Pulls](https://img.shields.io/docker/pulls/djocker/oroplatform.svg?maxAge=2592000)](https://hub.docker.com/r/djocker/oroplatform/)  
+
 The docker image contains source code of OROPlatform application.
 This image are used as part of docker stack (see compose configs).
 
