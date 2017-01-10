@@ -3,12 +3,12 @@ USER www-data
 
 # HTTPS or SSH
 # If you want to use ssh don't forget to provide ssh key via build arg directive
-ENV GIT_URI=https://github.com/orocrm/platform-application.git
+ARG GIT_URI=https://github.com/orocrm/platform-application.git
 
 # branch name or tag
 # master - for master branch
 # tags/1.9.1 - for 1.9.1 tag
-ENV GIT_REF=tags/1.9.7
+ARG GIT_REF=tags/1.9.7
 
 RUN install-application.sh
 

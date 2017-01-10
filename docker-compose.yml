@@ -8,9 +8,9 @@ db:
     - "3306"
   environment:
     - MYSQL_ROOT_PASSWORD=root
-    - MYSQL_DATABASE=oroplatfrom
-    - MYSQL_USER=oroplatfrom
-    - MYSQL_PASSWORD=oroplatfrom
+    - MYSQL_DATABASE=oroplatform
+    - MYSQL_USER=oroplatform
+    - MYSQL_PASSWORD=oroplatform
   volumes_from:
     - data
 mail:
@@ -39,9 +39,9 @@ minion:
     - APP_DB_DRIVER=pdo_mysql
     - APP_DB_HOST=db
     - APP_DB_PORT=3306
-    - APP_DB_USER=oroplatfrom
-    - APP_DB_PASSWORD=oroplatfrom
-    - APP_DB_NAME=oroplatfrom
+    - APP_DB_USER=oroplatform
+    - APP_DB_PASSWORD=oroplatform
+    - APP_DB_NAME=oroplatform
     - APP_HOSTNAME=localhost
     - APP_MAILER_TRANSPORT=smtp
     - APP_MAILER_HOST=mail
@@ -51,5 +51,5 @@ minion:
     - APP_MAILER_PASSWORD=password
     - APP_WEBSOCKET_BACKEND_PORT=8080  
     - APP_WEBSOCKET_FRONTEND_PORT=8080  
-    - APP_SECRET=123456789  
+    - APP_SECRET=123456789    
     - APP_IS_INSTALLED=
