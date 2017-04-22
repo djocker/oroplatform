@@ -1,5 +1,8 @@
 # OROPlatform Docker Image
-[![GitHub tag](https://img.shields.io/github/tag/djocker/oroplatform.svg?maxAge=2592000)](https://hub.docker.com/r/djocker/oroplatform/tags/) [![Docker Pulls](https://img.shields.io/docker/pulls/djocker/oroplatform.svg?maxAge=2592000)](https://hub.docker.com/r/djocker/oroplatform/)  
+[![GitHub Tag](https://img.shields.io/github/tag/djocker/oroplatform.svg)](https://hub.docker.com/r/djocker/oroplatform/tags/) 
+[![Layers](https://images.microbadger.com/badges/image/djocker/oroplatform.svg)](https://microbadger.com/images/djocker/oroplatform "Get your own image badge on microbadger.com") 
+[![Docker Pulls](https://img.shields.io/docker/pulls/djocker/oroplatform.svg)](https://hub.docker.com/r/djocker/oroplatform/) 
+[![Build Status](https://travis-ci.org/djocker/oroplatform.svg?branch=master)](https://travis-ci.org/djocker/oroplatform)
 
 The docker image with source code of OroPlatform application.
 This image is used as part of docker stack (see compose configs).
