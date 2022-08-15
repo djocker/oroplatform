@@ -1,3 +1,5 @@
+# DEPRECATED! The solution has been replaced by the following tool: https://github.com/digitalspacestdio/homebrew-docker-compose-oroplatform
+
 # OROPlatform Docker Image
 [![GitHub Tag](https://img.shields.io/github/tag/djocker/oroplatform.svg)](https://hub.docker.com/r/djocker/oroplatform/tags/) 
 [![Layers](https://images.microbadger.com/badges/image/djocker/oroplatform.svg)](https://microbadger.com/images/djocker/oroplatform "Get your own image badge on microbadger.com") 
